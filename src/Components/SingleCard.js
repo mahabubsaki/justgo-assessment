@@ -2,7 +2,8 @@ import React, { useContext } from 'react';
 import { FaUser } from 'react-icons/fa'
 import { BsFillCalendarDateFill } from 'react-icons/bs'
 import { ProjectContext } from '../App';
-const SingleCard = ({ user, no }) => {
+const SingleCard = ({ user }) => {
+    // extracting temporary data to getting the index of each element
     const { currentUsers } = useContext(ProjectContext)
     return (
         <div className="rounded-lg shadow-lg flex flex-col p-4 items-center">

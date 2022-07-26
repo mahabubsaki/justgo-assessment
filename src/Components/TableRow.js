@@ -1,7 +1,8 @@
 import React, { useContext } from 'react';
 import { ProjectContext } from '../App';
 
-const TableRow = ({ user, no }) => {
+const TableRow = ({ user }) => {
+    // extracting temporary data to getting the index of each element
     const { currentUsers } = useContext(ProjectContext)
     return (
         <tr>

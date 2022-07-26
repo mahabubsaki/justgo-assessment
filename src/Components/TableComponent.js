@@ -3,6 +3,7 @@ import { ProjectContext } from '../App';
 import TableRow from './TableRow';
 
 const TableComponent = ({ children }) => {
+    // extracting visible data and mapping it
     const { slicedUsers } = useContext(ProjectContext)
     return (
         <div className="border rounded-t-[10px] border-[#999393] w-[95%] mx-auto">

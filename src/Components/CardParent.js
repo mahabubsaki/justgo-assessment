@@ -3,6 +3,7 @@ import { ProjectContext } from '../App';
 import SingleCard from './SingleCard';
 
 const CardParent = ({ children }) => {
+    // extracting visible data and mapping it
     const { slicedUsers } = useContext(ProjectContext)
     return (
         <div className="flex flex-col justify-between p-2 border my-2">

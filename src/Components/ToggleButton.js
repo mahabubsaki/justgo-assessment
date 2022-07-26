@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { ProjectContext } from '../App';
 
 const ToggleButton = () => {
+    // extracting tileview state and changing on user interaction
     const { tileView, setTileView } = useContext(ProjectContext)
     return (
         <div class="form-control">
